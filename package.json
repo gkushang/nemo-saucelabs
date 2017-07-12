@@ -7,6 +7,12 @@
     "name": "kushang gajjar",
     "email": "g.kushang@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Kurt Weiberth",
+      "url": "https://github.com/kweiberth"
+    }
+  ],
   "scripts": {
     "test": "echo \"TODO: write tests\""
   },
