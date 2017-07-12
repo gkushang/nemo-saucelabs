@@ -16,6 +16,12 @@ Use `npm` to install `nemo-saucelabs` into your project:
 npm install --save-dev nemo-saucelabs@^3.0.0
 ```
 
+_**for Cucumber 2, install v4.0.0. Mocha is supported as is.**_
+
+```
+npm install --save-dev nemo-saucelabs@^4.0.0
+```
+
 Then, define the `nemo-saucelabs` plugin in your `config/config.json` under `plugins` section and specify Sauce Labs `username` and `accessKey` under `serverCaps` section:
 
 ```
