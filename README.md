@@ -1,4 +1,8 @@
-## nemo-saucelabs
+# nemo saucelabs
+
+**nemo.js integration with Saucelabs.com**
+
+[![npm](https://img.shields.io/npm/v/nemo-saucelabs.svg)](https://www.npmjs.com/package/nemo-saucelabs)  [![Dependency Status](https://david-dm.org/gkushang/nemo-saucelabs.svg)](https://david-dm.org/gkushang/nemo-saucelabs) [![Code Climate](https://codeclimate.com/github/gkushang/nemo-saucelabs/badges/gpa.svg)](https://codeclimate.com/github/gkushang/nemo-saucelabs) [![License](https://img.shields.io/npm/l/nemo-saucelabs.svg)](LICENSE)
 
 This plugin exposes methods to update the metadata of running Sauce Labs job, e.g. Test Name, Test tags, Build Id and Test result (Pass/Fail) on Sauce Labs dashboard. It also exposes a method to get Job URL to print on your test reports. Once `nemo-saucelabs` plugin is registered, you will have `nemo.saucelabs` object available.
 
@@ -10,6 +14,12 @@ Use `npm` to install `nemo-saucelabs` into your project:
 
 ```
 npm install --save-dev nemo-saucelabs@^3.0.0
+```
+
+_**for Cucumber 2, install v4.0.0. Mocha is supported as is.**_
+
+```
+npm install --save-dev nemo-saucelabs@^4.0.0
 ```
 
 Then, define the `nemo-saucelabs` plugin in your `config/config.json` under `plugins` section and specify Sauce Labs `username` and `accessKey` under `serverCaps` section:
