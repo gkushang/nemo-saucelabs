@@ -1,6 +1,6 @@
 {
   "name": "nemo-saucelabs",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "updates Sauce Labs jobs with test information and test results",
   "main": "index.js",
   "author": {
